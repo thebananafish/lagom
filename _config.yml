@@ -1,8 +1,14 @@
 # General Jekyll Config
 pygments: true
-url: http://wiki.bananafish.es
+url: http://wiki.bananafish.in
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
+
+markdown:      rdiscount
+markdown_ext:  markdown,mkd,mkdn,md
+
+rdiscount:
+  extensions: []
 
 # Theme customization - please change from the defaults!
 theme:
